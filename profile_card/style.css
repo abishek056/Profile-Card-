@@ -1,11 +1,12 @@
 body {
     background: #f2f2f2;
-
 }
 
 .card {
     width: 400px;
     background: white;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 .cover {
@@ -15,7 +16,7 @@ body {
 .cover img {
     width: 100%;
     height: 220px;
-    object-fit: cover;
+    object-fit: cover; 
 }
 
 .logo {
@@ -26,7 +27,7 @@ body {
     overflow: hidden;
     position: absolute;
     bottom: -40px;
-    left: 25px;
+    left: 20px;
 }
 
 .logo img {
@@ -36,7 +37,10 @@ body {
 }
 
 .name {
-    padding: 40px 20px 20px;
+    padding: 50px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .info h2 {
@@ -46,6 +50,50 @@ body {
 
 .info p {
     margin-top: 5px;
+    color: gray;
 }
 
+.tools {
+    background: #eeeeee;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
 
+.line {
+    border: none;
+    border-top: 2px solid #000000;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.star {
+    text-align: center;
+}
+
+.star h3 {
+    margin: 0;
+    font-size: 18px;
+    color: black;
+}
+
+.star p {
+    margin-top: 5px;
+    color: gray;
+    font-size: 12px;
+}
+
+.contact {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
